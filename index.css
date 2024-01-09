@@ -1,0 +1,652 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: yellow; */
+}
+.logomain{
+    display: flex;
+}
+.logo img{
+    width: 100%;
+    width: 60px;
+}
+.logoname{
+    font-family: 'Epilogue', sans-serif;
+    width: 129px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: -8px;
+}
+.headerflex li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+.headerflex li a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-right: 100px;
+}
+.headerflex{
+    display: flex;
+    justify-content: space-between;
+}
+.headermaindiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    position: absolute;
+}
+.active{
+    color: #C50E0E !important;
+}
+.starttoday{
+    padding: 10px 20px;
+    background-color: #C50E0E;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 155px;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.herosecpic img{
+    width: 100%;
+}
+.heroseccontent{
+    position: absolute;
+    font-family: 'Passion One', sans-serif;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.heroseccontent h1{
+    width: 55% ;
+    font-size: 60px;
+}
+.training,.nutrition,.results{
+    border: 1px solid #C50E0E;
+    font-family: 'Poppins', sans-serif;
+    background-color: #C50E0E;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 320px;
+    height: 240px;
+}
+.training img,.nutrition img,.results img{
+    width: 100%;
+    width: 40px;
+    margin-top: 30px;
+}
+.training h4,.nutrition h4,.results h4{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.training p,.nutrition p,.results p{
+    width: 80%;
+    padding-left: 35px;
+    margin-top: 15px;
+}
+.servicemaindiv{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 40px;
+}
+.programs{
+    font-family: 'Passion One', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 23px;
+}
+.programs span{
+    color: #C50E0E;
+}
+.fatlosssubdiv1 img{
+    width: 100%;
+    width: 570px;
+    height: 360px;
+    margin-left: 20px;
+}
+.fatlossmaindiv{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+.fatlosssubdiv2{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    width: 35%;
+    margin-top: 40px;
+}
+.fatlosssubdiv2 h4{
+    color: #C50E0E;
+    font-size: 20px;
+}
+.fatlosssubdiv2 p{
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+}
+.viewmore{
+    padding: 10px 20px;
+    background-color: #C50E0E;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 155px;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.bulkingsubdiv1 img{
+    width: 100%;
+    width: 560px;
+    height: 370px;
+    margin-right: 20px;
+}
+.bulkingmaindiv{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-evenly;
+}
+.bulkingsubdiv2{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 50px;
+    width: 35%;
+    margin-top: 50px;
+}
+.bulkingsubdiv2 h4{
+    color: #C50E0E;
+    font-size: 20px;
+}
+.bulkingsubdiv2 p{
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+}
+.trainer{
+    font-family: 'Passion One', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 23px;
+}
+.trainer span{
+    color: #C50E0E;
+}
+.trainermaindiv{
+    display: flex;
+}
+.trainersubdiv1 img{
+    width: 100%;
+    width: 400px;
+    height: 580px;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+.alexorten{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 23px;
+    margin-top: 100px;
+}
+.fitnesscoach{
+    font-family: 'Poppins', sans-serif;
+    color: #C50E0E;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.trainercontent{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+    width: 90%;
+
+}
+.trainerp2{
+    margin-top: 20px;
+}
+.trainersubdiv2{
+    margin-left: 80px;
+}
+.successstories{
+    font-family: 'Passion One', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 23px;
+}
+.successstories span{
+    color: #C50E0E;
+}
+.stories{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 40px;
+}
+.connect{
+    font-family: 'Passion One', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 23px;
+}
+.connect span{
+    color: #C50E0E;
+}
+.facebook img,.instagram img,.youtube img,.linkedin img{
+    width: 100%;
+    width: 135px;
+    height: 135px;
+}
+.socialicon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.color{
+    background-color: #161515;
+    margin-top: 50px;
+}
+.logomain1{
+    display: flex;
+    margin-top: 50px;
+}
+.logo1 img{
+    width: 100%;
+    width: 60px;
+}
+.logoname1{
+    font-family: 'Epilogue', sans-serif;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+}
+.logoname1 h3{
+    width: 70%;
+}
+.footercontent{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 310px;
+    margin-top: 30px;
+}
+.locationcontent{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 280px;
+    margin-top: 5px;
+}
+.callnumber{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 12px;
+}
+.locationflex{
+    display: flex;
+    margin-top: 30px;
+}
+.callflex{
+    display: flex;
+    margin-top: 30px;
+}
+.footermaindiv{
+    display: flex;
+    justify-content: space-between;
+}
+.pages{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.pagesflex li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.pagesflex li a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.pagescontent{
+    margin-top: 44px;
+}
+.footersubdiv1{
+    margin-left: 30px;
+}
+.newsletter{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.newslettercontent{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 44px;
+    width: 350px;
+}
+.emailflex{
+    display: flex;
+    margin-top: 30px;
+}
+.youremail{
+    padding: 0px 0px 0px 5px;
+    width: 260px;
+    height: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+.subscribe{
+width: 160px;
+height: 55px;
+border: none;
+background: #C50E0E;
+color: #FFF;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+cursor: pointer;
+}
+.copyright{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding:30px 0px;
+}
+.blackcolor{
+    background: black;
+}
+.footersocialicon img{
+    width: 100%;
+    padding: 20px 0px;
+}
+.copyrightflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 500px){
+    .logo img {
+        width: 30px;
+    }
+    .logoname {
+        margin-left: 1px;
+        margin-top: -4px;
+        font-size: 10px;
+        width: 86px;
+    }
+    .logoname h3 {
+        width: 81px;
+    }
+    .headerflex li a {
+        font-size: 8px;
+        margin-right: 0px;
+    }
+    .headerflex li {
+        margin-left: 10px;
+    }
+    .marginright1{
+        width: 72px;
+    }
+    .marginright2{
+        width: 72px;
+    }
+    .marginright3{
+        width: 35px;
+    }
+    .headermaindiv {
+        margin-top: 10px;
+    }
+    .logomain{
+        margin-top: 5px;
+    }
+    .heroseccontent h1 {
+        font-size: 20px;
+    }
+    .starttoday {
+        padding: 6px 10px;
+        width: 74px;
+        font-size: 8px;
+        margin-top: 5px;
+    }
+    .heroseccontent {
+        margin-top: 95px;
+        margin-left: 28px;
+    }
+   .training img, .nutrition img, .results img {
+        width: 25px;
+        margin-top: 15px;
+    }
+    .training h4, .nutrition h4, .results h4 {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .training p, .nutrition p, .results p {
+        padding-left: 13px;
+        margin-top: 10px;
+        font-size: 8px;
+    }
+    .training, .nutrition, .results {
+        height: 142px;
+    }
+    .servicemaindiv {
+        margin-top: 25px;
+    }
+    .programs {
+        margin-top: 25px;
+        font-size: 12px;
+    }
+    .fatlossmaindiv {
+        margin-top: 30px;
+    }
+    .fatlosssubdiv1 img {
+        width: 207px;
+        height: 145px;
+        margin-left: 0px;
+    }
+    .fatlosssubdiv2 h4 {
+        color: #C50E0E;
+        font-size: 10px;
+    }
+    .fatlosssubdiv2 p {
+        margin-top: 5px;
+        letter-spacing: 0px;
+        font-size: 8px;
+    }
+    .fatlosssubdiv2 {
+        margin-left: 6px;
+        width: 179px;
+        margin-top: 5px;
+    }
+    .viewmore {
+        padding: 5px;
+        width: 78px;
+        margin-top: 7px;
+        font-size: 10px;
+    }
+    .bulkingsubdiv1 img {
+        width: 199px;
+        height: 142px;
+        margin-right: 0px;
+    }
+    .bulkingsubdiv2 {
+        margin-left: 6px;
+        width: 150px;
+        margin-top: 10px;
+    }
+    .bulkingsubdiv2 h4 {
+        font-size: 10px;
+    }
+    .bulkingsubdiv2 p {
+        margin-top: 5px;
+        letter-spacing: 0px;
+        font-size: 8px;
+        width: 163px;
+    }
+    .bulkingmaindiv {
+        margin-top: 30px;
+    }
+    .trainer {
+        margin-top: 25px;
+        font-size: 12px;
+    }
+    .trainersubdiv1 img {
+        width: 200px;
+        height: 316px;
+        margin-top: 30px;
+        margin-left: 3px;
+    }
+    .trainersubdiv2 {
+        margin-left: 10px;
+    }
+    .alexorten {
+        font-size: 10px;
+        margin-top: 43px;
+    }
+    .fitnesscoach {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .trainercontent {
+        margin-top: 5px;
+        letter-spacing: 0px;
+        width: 170px;
+        font-size: 8px;
+    }
+    .successstories {
+        margin-top: 25px;
+        font-size: 12px;
+    }
+    .stories{
+        display: block;
+        margin-top: 30px;
+    }
+    .video1 iframe, .video2 iframe, .video3 iframe {
+        width: 370px;
+        height: 230px;
+        margin-top: 10px;
+        margin-left: 18px;
+    }
+    .socialicon {
+        margin-top: 30px;
+    }
+    .facebook img, .instagram img, .youtube img, .linkedin img {
+        width: 100%;
+        width: 60px;
+        height: 60px;
+    }
+    .connect {
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .logo1 img {
+        width: 55px;
+        margin-top: 15px;
+    }
+    .logoname1 {
+        margin-left: 5px;
+        margin-top: 22px;
+        font-size: 12px;
+        width: 219px;
+    }
+    .logoname1 h3 {
+        width: 153px;
+    }
+    .footermaindiv{
+        display: block;
+    }
+    .logomain1 {
+        margin-left: -15px;
+    }
+    .footercontent {
+        margin-top: 20px;
+        font-size: 12px;
+        margin-left: -16px;
+    }
+    .location img{
+        width: 10px;
+    }
+    .location img {
+        width: 30px;
+    }
+    .locationcontent {
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    .call img{
+        width: 30px;
+    }
+    .callnumber{
+        margin-top: 12px;
+        font-size: 12px;
+    }
+    .locationflex {
+        margin-left: -22px;
+    }
+    .callflex{
+        margin-left: -22px;
+    }
+    .pages {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .pagescontent {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .footersubdiv2 {
+        margin-left: 12px;
+    }
+    .newsletter{
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 12px;
+    }
+    .newslettercontent{
+        margin-top: 20px;
+        font-size: 12px;
+        margin-left: 12px;
+    }
+    .emailflex {
+        margin-top: 20px;
+    }
+    .youremail {
+        width: 245px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .subscribe {
+        width: 156px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .copyright {
+        font-size: 10px;
+    }
+    .footersocialicon img {
+        width: 108px;
+        padding: 26px 0px;
+    }
+    
+    
+
+}
+    
+
+
+
+
+
