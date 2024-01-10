@@ -286,7 +286,7 @@
 .callnumber{
     color: white;
     font-family: 'Poppins', sans-serif;
-    margin-top: 12px;
+    margin-top: 17px;
 }
 .locationflex{
     display: flex;
@@ -629,7 +629,7 @@ cursor: pointer;
         font-size: 10px;
     }
     .subscribe {
-        width: 156px;
+        width: 127px;
         height: 40px;
         font-size: 15px;
     }

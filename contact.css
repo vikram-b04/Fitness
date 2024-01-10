@@ -199,7 +199,7 @@
 .callnumber{
     color: white;
     font-family: 'Poppins', sans-serif;
-    margin-top: 12px;
+    margin-top: 17px;
 }
 .locationflex{
     display: flex;
@@ -336,13 +336,14 @@ cursor: pointer;
         margin-top: 5px;
     }
     .heroseccontent h1 {
-        width: 68%;
+        width: 282px;
         font-size: 20px;
         letter-spacing: 2px;
         margin-left: 56px;
     }
     .heroseccontent {
-        margin-top: 73px;
+        margin-top: 99px;
+        margin-left: 12px;
     }
 
     .contact {
