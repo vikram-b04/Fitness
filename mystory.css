@@ -70,6 +70,7 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    margin-left: 400px;
 }
 .heroseccontent h1{
     width: 60% ;
