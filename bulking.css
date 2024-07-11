@@ -74,14 +74,14 @@
     width: 100%;
 }
 
-.heroseccontent {
+.heroseccontent{
     position: absolute;
     font-family: 'Passion One', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    margin-top: 300px;
 }
 
 .heroseccontent h1 {
